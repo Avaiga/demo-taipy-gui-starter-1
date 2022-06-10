@@ -23,5 +23,5 @@ def on_change(state, var_name, var_value):
 decay = 10
 data = compute_data(decay) 
 
-Gui(page=page).run(title='Taipy GUI Video 1',
+Gui(page=page).run(title='Taipy Demo GUI 1',
     		       dark_mode=False)
