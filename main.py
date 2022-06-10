@@ -2,16 +2,28 @@ from taipy.gui import Gui
 from math import cos, exp 
 import os
 
+inactive_text = "<|{decay}|>"
+inactive_slider = "<|{decay}|slider|>"
+inactive_date = "<|{data}|chart|>"
+
+
 page = """
 #This is *Taipy* GUI 
 
-A value: <|{decay}|>.
+A value: <|{decay}|> *(<|{inactive_text}|>)*. 
 
 A slider: <br/>
 <|{decay}|slider|>
 
+*(<|{inactive_slider}|>)*
+
 My chart: 
-<|{data}|chart|>
+<|{data}|chart|> 
+*(<|{inactive_date}|>)*
+
+<center>
+<|{"downloaded_main.py"}|file_download|label=Download the code here|>
+</center>
 """
 
 def compute_data(decay):
