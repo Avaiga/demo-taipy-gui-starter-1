@@ -7,8 +7,9 @@
 
 **Component**: Visual Elements (controls and graphs) & Variable bindings 
 
-## Description: 
-- This video focuses on getting started with Taipy GUI, namely how to create a basic application page using the Markdown syntax. Additionally, the concept of variable bindings and some of the visual elements are introduced such as slider, chart. 
+## Description:
+
+This video focuses on getting started with Taipy GUI, namely how to create a basic application page using the Markdown syntax. Additionally, the concept of variable bindings and some of the visual elements are introduced such as slider, chart. 
 
 ## How to run the demo
 
