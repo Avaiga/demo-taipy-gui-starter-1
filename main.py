@@ -24,15 +24,5 @@ def on_change(state, var_name, var_value):
 decay = 10
 data = compute_data(decay) 
 
-gui = Gui(page=page)
-
-if __name__ == '__main__':
-    # the options in the gui.run() are optional, try without them
-    gui.run(title='Taipy GUI Video 1',
-    		host='0.0.0.0',
-    		port=os.environ.get('PORT', '5050'),
-    		dark_mode=False)
-else:
-    app = gui.run(title='Taipy GUI Video 1',
-                  dark_mode=False,
-                  run_server=False)
+Gui(page=page).run(title='Taipy GUI Video 1',
+    		       dark_mode=False)
