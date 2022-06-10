@@ -40,11 +40,11 @@ gui = Gui(page=page)
 
 if __name__ == '__main__':
     # the options in the gui.run() are optional, try without them
-    gui.run(title='Taipy GUI Video 1',
+    gui.run(title='Taipy Demo GUI 1',
     		host='0.0.0.0',
     		port=os.environ.get('PORT', '5050'),
     		dark_mode=False)
 else:
-    app = gui.run(title='Taipy GUI Video 1',
+    app = gui.run(title='Taipy Demo GUI 1',
                   dark_mode=False,
                   run_server=False)
