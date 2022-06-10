@@ -1,6 +1,5 @@
 from taipy.gui import Gui
 from math import cos, exp 
-import os
 
 page = """
 #This is *Taipy* GUI 
