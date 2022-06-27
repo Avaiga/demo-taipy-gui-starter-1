@@ -27,10 +27,6 @@ Taipy is a Python library for creating Business Applications. More information o
 
 This video focuses on getting started with Taipy GUI, namely how to create a basic application page using the Markdown syntax. Additionally, the concept of variable bindings and some of the visual elements are introduced such as slider, chart. 
 
-### How to run the demo
-
-This demo works with a Python version superior to 3.8. Install the dependencies of the **requirements.txt** and run the **main.py**.
-
 ### Introduction: 
 - (NA)
 
