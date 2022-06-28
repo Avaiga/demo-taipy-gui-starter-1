@@ -33,9 +33,8 @@ This video focuses on getting started with Taipy GUI, namely how to create a bas
 
 ## Directory Structure
 
-- `demo-taipy-gui-starter-1/`:
-    - `src/`: Contains the demo source code.
-    - `tests/`: Contains the demo tests.
+
+- `src/`: Contains the demo source code.
 - `CODE_OF_CONDUCT.md`: Code of conduct for members and contributors of _demo-taipy-gui-starter-1_.
 - `CONTRIBUTING.md`: Instructions to contribute to _demo-taipy-gui-starter-1_.
 - `INSTALLATION.md`: Instructions to install _demo-taipy-gui-starter-1_.
